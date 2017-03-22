@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PieceCar</title>
+			<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<script src="js/jquery.min.js" ></script>
+		<script src="js/jquery.mobile-1.4.5.min.js" ></script>
+		<script src="js/tools.js"></script>
+		<style type="text/css">
+			ul li a img{
+				width:50px;
+				height:50px;
+			}
+		</style>
+		<script language="JavaScript">
+			var a;
+			window.onload = function(){
+				a = new FAjax();
+				/*a.reader(
+					"https://www.piececar.online/list.php?date=1490147656&fromcity=%E5%91%A8%E5%8F%A3%E5%B8%82&page=1&pageSize=4",
+					null,
+					function(text){
+						console.log(text);
+					},
+					"GET"
+				);
+				*/
+			}
+		</script>"
+	</head>
+	<body>
+		<div data-role="page">
+			<div data-role="header">
+				<h2 ><strong>首页</strong></h2>
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<ul data-role="listview">
+					<!--
+                    	作者：772725447@qq.com
+                    	时间：2017-03-22
+                    	描述：
+                    -->
+                    <li data-role="list-divider"><strong>3月23日 周四（明天）</strong></li>
+					<li data-icon="false" style="background-color:#AAAAAA;">
+						<a href="#" >
+							<img src="img/icon.png" style="left:20px;top:20px;"></img>
+							<strong>川汇区&nbsp;<small><small style="color:#AAAAAA">周口市</small></small></strong>
+							<br />
+							<p><strong style="color:#00BB88">•</strong>&nbsp;从:荷花街道</p>
+							
+							<strong>固始县&nbsp;<small><small style="color:#AAAAAA">信阳市</small></small></strong>
+							<br />
+							<p><strong style="color:#00BB88">•</strong>&nbsp;到:塔克拉玛干沙漠</p>
+							
+							<div class="ui-grid-a">
+								<div class="ui-block-a" style="">
+									<p>3月23日 21:50 周四(明天)</p>
+									<p>总<b>5</b>座 - 剩<b>4</b>座</p>
+									<p><b>220.00</b>元/人</p>
+								</div>
+								<div class="ui-block-b" style="text-align:right;">
+									<p style="color:#AAAAAA">全程高速</p>
+									<p style="color:#AAAAAA">护送范围:区/县 内</p>
+									<p style="color:#AAAAAA">奔驰X7_0</p>
+								</div>b
+							</div>
+								
+							
+						</a>
+					</li>
+					<br />
+					<li data-icon="false">
+						
+						<a href="#">
+							<img src="img/icon.png" style="left:20px;top:20px;"></img>g
+						</a>
+					</li>
+					
+				
+				</ul>
+				
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="#" data-icon="home">首页</a></li>
+						<li><a href="#" data-icon="search">发布</a></li>
+						<li><a href="#" data-icon="mail">消息</a></li>
+						<li><a href="#" data-icon="user">更多</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
